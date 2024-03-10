@@ -1,0 +1,105 @@
+body {
+    font-family: "Courier New", monospace;
+    margin: 0; /* Remove default body margin */
+    display: flex;
+    justify-content: center; /* Center the receipt horizontally */
+    align-items: center; /* Center the receipt vertically */
+    height: 90vh; /* Ensure the receipt is centered within the viewport */
+    margin-top: 100px;
+  }
+  
+  .receipt {
+    border: 0.8px solid #f3eeee;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%; /* Make sure the receipt does not exceed the specified width */
+    box-shadow: 0 2px 4px #f5f1f1;
+
+  }
+  
+  .header h2 {
+    margin: 0;
+    text-align: center;
+  }
+  .line{
+    text-align: center;
+  }
+  
+  .header p {
+    margin: 3px 0 3px 0;
+  }
+  
+  .items {
+    margin: 10px 0;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item-name {
+    flex: 1;
+  }
+  
+  .item-price {
+    flex: 0;
+  }
+  
+  .totals {
+    margin: 10px 0;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total-price {
+    flex: 0;
+  }
+  
+  .thank-you {
+    text-align: center;
+    font-weight: bold;
+  }
+  .labels {
+  margin-right: 50px;
+  }
+  .barcode img{
+    height: 85px;
+    width: 220px;
+    margin-left: 40px;
+    margin-top: 0%;
+    margin-bottom: 0px;
+  }
+  .item{
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  .start{
+    text-align: center;
+  }
+  .space {
+    float: right;
+  }
+  .space1{
+    text-align: center;
+  }
+  .space3 p {
+    margin: 3px 0 3px 0;
+  }
+  .serial{
+    margin-top: -30px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .kes{
+    margin-right: 80px;
+  }
+  @media print {
+    title, button {
+      display: none;
+    }
+  }
+  

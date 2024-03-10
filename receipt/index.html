@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supermarket Receipt</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="receipt">
+    <div class="header">
+      
+      <h2>Tuskys Supermarket </h2>
+      <p class="line">---------------------------</p>
+      <p>Mjid Futtaim Hypermarket Ltd</p>
+      <p>Nairobi TRM</p>
+      <p>TRADER PIN: PO51522497N</p>
+      <p>2012-00621 NRB</p>
+      <p>Toll Free Number 0800221322</p><br>
+      <p class="start">- START OF FISCAL RECEIPT -</p>
+      <p>717400040917</p>
+      <p class="start">SESIA FRIED PE100G <span class="space">59T</span></p>
+      <p>200001545702</p>
+      <p class="start">GRAPES RED 500G <span class="space">224T</span></p>
+      <p>616110166628</p>
+      <p class="start">TOSS BLUE DET1KG <span class="space">195T</span></p>
+      <div><b><span class="kes">KES*</span> <span class="space1">TOT</span> <span class="space">478</span></b></div>
+      <p>Phone: (123) 456-7890</p>
+    </div>
+    <hr>
+    <div class="items">
+      <p>
+        <span class="labels">Item</span>
+        <span class="labels">Quantity</span>
+        <span>Price</span>
+      </p>
+      <div class="item">
+        <span class="item-name">Closed pair 20pcs</span>
+        <span class="item-price">Ksh1000.00</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Meal Bread 1</span>
+        <span class="item-price">Ksh12000.00</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Plastic bottle 1</span>
+        <span class="item-price">Ksh100.00</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Dispenser 1</span>
+        <span class="item-price">Ksh500.00</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Black Mat 3</span>
+        <span class="item-price">Ksh1000.00</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Closed pair 20pcs</span>
+        <span class="item-price">Ksh300.00</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Closed pair 20pcs</span>
+        <span class="item-price">Ksh100.00</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Closed pair 20pcs</span>
+        <span class="item-price">Ksh200.00</span>
+      </div>
+    </div>
+    <hr>
+    <div class="totals">
+        <div class="total">
+          <span>Total:</span>
+          <span class="total-price" id="total-amount">Ksh0.00</span>
+        </div>
+        <div class="total">
+          <span>Tax:</span>
+          <span class="total-price">Ksh1.50</span>
+        </div>
+        <div class="total">
+          <span>Grand Total:</span>
+          <span class="total-price" id="grand-total-amount">Ksh0.00</span>
+        </div>
+      </div>      
+    <hr>
+    <div class="space3">
+    <P>SERVED BY : MONICA NJERI GATIMU </P>
+    <p>TOTAL NUMBER OF ITEMS SOLD = 3</p>
+    <P>22/07/23 08:50 682 12 0032 125</P>
+    <P>INVOICE NO:</P>
+  </div>
+    <div class="barcode">
+    <img src="barcode.png" alt="barcode">
+    <p class="serial">6068201200322307220850</p>
+
+    </div>
+    
+  
+  </div>
+
+  <script src="index.js"></script>
+  <button onclick="printReceipt()">Print Receipt</button>
+</body>
+</html>
